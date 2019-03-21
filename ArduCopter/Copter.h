@@ -892,6 +892,7 @@ private:
 #if MODE_LOITER_ENABLED == ENABLED
     ModeLoiter mode_loiter;
 #endif
+    ModePath mode_path;
 #if MODE_POSHOLD_ENABLED == ENABLED
     ModePosHold mode_poshold;
 #endif
